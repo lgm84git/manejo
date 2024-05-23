@@ -11,7 +11,7 @@ namespace Cashme.Crm.Condo.ClientePotencial
         protected override void InitPlugin()
         {
             try
-            {
+            { 
                 if (this.Context.Depth > 1)
                     return;
 
